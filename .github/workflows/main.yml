@@ -28,16 +28,12 @@ jobs:
     needs: build_and_push
     runs-on: ubuntu-latest
     steps:
-      - name: Start SSH agent
-        run: |
-          eval "$(ssh-agent -s)"
-          echo "${{ secrets.VPS_SSH_KEY }}" | ssh-add -
-
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@master
+        uses: gollumapp/ssh-action@v1.1.0
         with:
           host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USERNAME }}
+          user: ${{ secrets.VPS_USERNAME }}
+          key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             docker pull ${{ secrets.DOCKER_USERNAME }}/portfolio-website:latest
             docker stop portfolio || true
