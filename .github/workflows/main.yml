@@ -31,9 +31,7 @@ jobs:
       - name: Start SSH agent
         run: |
           eval "$(ssh-agent -s)"
-          echo "${{ secrets.VPS_SSH_KEY }}" | tr -d '\n' | ssh-add -
-        env:
-          SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
+          echo "${{ secrets.VPS_SSH_KEY }}" | ssh-add -
 
       - name: Deploy to VPS
         uses: appleboy/ssh-action@master
