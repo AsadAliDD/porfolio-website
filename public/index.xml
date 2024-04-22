@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello</title>
+    <link>https://asadali.de/</link>
+    <description>Recent content on Hello</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://asadali.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://asadali.de/about/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://asadali.de/about/</guid>
+      <description>Hey there! I&amp;rsquo;m Asad Ali, currently diving deep into my Master&amp;rsquo;s studies. When I&amp;rsquo;m not coding or studying, you&amp;rsquo;ll often find me tinkering with my homelab setup, exploring the endless possibilities of self-hosting. I&amp;rsquo;m also a big fan of diving into the latest TV shows and movies, always eager to discover new stories and characters. Join me on this journey of learning, experimenting, and enjoying the wonders of technology and entertainment!</description>
+    </item>
+  </channel>
+</rss>

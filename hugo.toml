@@ -1,0 +1,35 @@
+baseURL = 'https://asadali.de'
+languageCode = 'en-us'
+title = 'Hello'
+theme = 'hugo-theme-nix'
+
+
+[params]
+    Name = "Asad Ali"
+    HeaderUsername = "asad"
+    HeaderHostname = "asadali.de"
+    About = "Hi! I'm Asad Ali, currently pursuing my Masters in Artificial Intelligence. Explore my work and journey in the realm of AI. Currently exploring self-hosting as a fun side project."
+    ProfilePicture = "/pp.jpeg"
+    Email = "asadalisps@gmail.com"
+    GithubID = "AsadAliDD"
+    LinkedInID = "asad-ali0082"
+    
+[menu]
+    [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "about"
+
+    [[menu.header]]
+    name = "projects"
+    weight = 0
+    url = "/projects"
+
+    [[menu.header]]
+    name = "cv"
+    weight = 0
+    url = "/cv.pdf"
+
+   
+
+    
