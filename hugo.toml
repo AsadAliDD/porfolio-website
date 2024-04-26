@@ -28,7 +28,7 @@ theme = 'hugo-theme-nix'
     [[menu.header]]
     name = "cv"
     weight = 0
-    url = "/Asad_CV.pdf"
+    url = "/cv.pdf"
 
    
 
