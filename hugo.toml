@@ -8,7 +8,7 @@ theme = 'hugo-theme-nix'
     Name = "Asad Ali"
     HeaderUsername = "asad"
     HeaderHostname = "asadali.de"
-    About = "Hi! I'm Asad Ali, currently pursuing my Masters in Artificial Intelligence. Explore my work and journey in the realm of AI. Currently exploring self-hosting as a fun side project. NEW TEST"
+    About = "Hi! I'm Asad Ali, currently pursuing my Masters in Artificial Intelligence. Explore my work and journey in the realm of AI. Currently exploring self-hosting as a fun side project."
     ProfilePicture = "/pp.jpeg"
     Email = "asadalisps@gmail.com"
     GithubID = "AsadAliDD"
@@ -28,7 +28,7 @@ theme = 'hugo-theme-nix'
     [[menu.header]]
     name = "cv"
     weight = 0
-    url = "/cv.pdf"
+    url = "/Asad_cv.pdf"
 
    
 
