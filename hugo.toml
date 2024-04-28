@@ -23,7 +23,7 @@ theme = 'hugo-theme-nix'
     [[menu.header]]
     name = "projects"
     weight = 0
-    url = "/projects"
+    url = "projects"
 
     [[menu.header]]
     name = "cv"

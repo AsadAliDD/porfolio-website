@@ -6,8 +6,15 @@
     <description>Recent content on Hello</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>InstaModel A siamese network based Image similarity measure to find similar images on Instagram. It also uses pose estimation to give a similarity score between two images. It is a part of a bigger research project to determine which posts set new trends in place arrangements, inspiring later content.&#xA;TwitterSentiment TwitterSentiment is a Keyword based Twitter Sentiment Analyzer. It uses tweets based on the input provided by the user to generate a Rudimentry Sentiment Report.</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
