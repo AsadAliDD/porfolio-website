@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>InstaModel A siamese network based Image similarity measure to find similar images on Instagram. It also uses pose estimation to give a similarity score between two images. It is a part of a bigger research project to determine which posts set new trends in place arrangements, inspiring later content.&#xA;TwitterSentiment TwitterSentiment is a Keyword based Twitter Sentiment Analyzer. It uses tweets based on the input provided by the user to generate a Rudimentry Sentiment Report.</description>
+      <description>Brutus Distributed password hash cracker which uses MPI to perform a dictionary attack. Implemented in both GO and Python to benchmark the performance.&#xA;InstaModel A siamese network based Image similarity measure to find similar images on Instagram. It also uses pose estimation to give a similarity score between two images. It is a part of a bigger research project to determine which posts set new trends in place arrangements, inspiring later content.</description>
     </item>
     <item>
       <title>About Me</title>
